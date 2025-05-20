@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
@@ -41,7 +41,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-=======
+
 name: 'analytics'
 version: '1.0.0'
 config-version: 2
@@ -103,4 +103,4 @@ snapshots:
 
 on-run-end:
   - "grant select on all tables in schema {{ target.schema }} to role analyst"
->>>>>>> 2b153621ad9b09fa20d391705c38d0e0035e8863
+
