@@ -1,4 +1,4 @@
-name: 'analytics'
+name: 'jaffle_shop'
 version: '1.0.0'
 config-version: 2
 
@@ -26,8 +26,8 @@ vars:
   include_test_accounts: false
 
 models:
-  ecommerce:
-    +materialized: view
+  jaffle_shop:
+    +materialized: table
     
     staging:
       +materialized: view
